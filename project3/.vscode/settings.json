@@ -1,0 +1,30 @@
+{
+    "editor.fontSize": 17,
+    "files.autoSave": "afterDelay",
+    "python.linting.pylintEnabled":false,   
+    "python.jupyter.startupCode": [
+        "%matplotlib inline"
+    ],
+    "workbench.colorTheme": "Monokai",
+    "editor.minimap.enabled": true,
+    "python.pythonPath":"C:/Users/jjugo/AppData/Local/Continuum/Anaconda2/python.exe",
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [{
+            "name": "Python",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": false,
+            "pythonPath": "python.pythonPath",
+            "program": "",
+            "cwd": "",
+            "env": {},
+            "envFile": "/.env",
+            "debugOptions": [
+                "WaitOnAbnormalExit",
+                "WaitOnNormalExit",
+                "RedirectOutput"
+            ]
+        }]
+    }
+}
